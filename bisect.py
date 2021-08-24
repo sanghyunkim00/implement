@@ -1,4 +1,4 @@
-def bisect(arr, target):
+def bisect(arr, target): #lower_bound랑 동일 왜냐하면 등호조건이 들어가기 때문
     start, end = 0, len(arr)
     while start < end:
         mid = (start+end) // 2

@@ -3,7 +3,6 @@ def upper_bound(arr, target):
     end = len(arr)
     while start < end:
         mid = (start+end) // 2
-        print(mid, arr[mid])
         if target >= arr[mid]:
             start = mid + 1
         else:
